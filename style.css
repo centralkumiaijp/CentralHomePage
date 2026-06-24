@@ -34,7 +34,7 @@ body {
     transform: translate(-50%, -50%);
 
     text-align: center;
-    color: #ffd54f;
+    color: #FFFF99;
 
     background: rgba(0, 0, 0, 0.35);
     padding: 40px 60px;
@@ -56,7 +56,7 @@ body {
    ========================= */
 
 nav {
-    background: #ffd54f;
+    background: #99FFFF;
     padding: 10px;
     text-align: center;
 }
