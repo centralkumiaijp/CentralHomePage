@@ -37,13 +37,13 @@ body {
     color: #FFFF99;
 
     background: rgba(0, 0, 0, 0.35);
-    padding: 40px 60px;
+    padding: 35px 55px;
     border-radius: 20px;
 }
 
 .hero-text h1 {
     margin: 0;
-    font-size: 5rem;
+    font-size: 4rem;
 }
 
 .hero-text p {
