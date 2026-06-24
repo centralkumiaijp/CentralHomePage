@@ -105,6 +105,9 @@ td {
     border: 1px solid #ccc;
     cursor: pointer;
     transition: transform 0.3s;
+
+    user-select: none;
+    -webkit-user-drag: none;
 }
 
 .certificate-gallery img:hover {
