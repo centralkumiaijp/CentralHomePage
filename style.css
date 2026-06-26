@@ -25,26 +25,28 @@ body {
     display: block;
 }
 
-.hero-text {
-    position: absolute;
+.hero-text{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
 
-    top: 50%;
-    left: 50%;
+    width:min(85%,900px);
 
-    transform: translate(-50%, -50%);
+    padding:35px 40px;
 
-    text-align: center;
-    color: #FFFF99;
+    box-sizing:border-box;
 
-    background: rgba(0, 0, 0, 0.35);
-    padding: 35px 70px;
-    border-radius: 20px;
+    text-align:center;
+
+    background:rgba(0,0,0,.35);
+    border-radius:20px;
 }
 
 .hero-text h1 {
     color: #ffd54f;
     text-shadow: 2px 2px 8px rgba(0,0,0,0.8);
-    font-size: 4rem;
+    font-size:clamp(2.3rem,5vw,4rem);
     line-height: 1.2;
 }
 
@@ -56,7 +58,7 @@ body {
 
 .hero-text p {
     margin-top: 15px;
-    font-size: 2rem;
+    font-size:clamp(1rem,2.2vw,2rem);
 }
 
 /* =========================
@@ -156,4 +158,10 @@ td {
 
 /* =========================
 
-font-size: min(72px, 8vw);
+.certificate-image{
+    width:300px;
+    height:450px;
+    border:1px solid #ccc;
+    cursor:pointer;
+    object-fit:cover;
+}
